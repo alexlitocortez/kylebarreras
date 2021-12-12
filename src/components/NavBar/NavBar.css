@@ -1,0 +1,54 @@
+
+.NavBar {
+    background-color: #336ba7;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    cursor: pointer;
+    height: 3.5em;
+    padding: 1rem;
+    display: flex;
+    z-index: 9998;
+}
+
+.NavBar-name {
+    font-size: 1.4rem;
+}
+
+.NavBar-list {
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.NavBar li {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 2800px) {
+    .NavBar li {
+        font-size: 1.5rem;
+        position: relative;
+        bottom: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .NavBar li {
+        position: relative;
+        bottom: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .NavBar-name {
+        display: none;
+    }
+
+    .NavBar-list {
+        display: none;
+    }
+}

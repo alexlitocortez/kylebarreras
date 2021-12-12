@@ -1,0 +1,28 @@
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 60vw;
+    position: relative;
+    top: 6rem;
+    margin: auto;
+    margin-bottom: 25rem;
+    padding: 1rem;
+}
+
+.portfolio-text-one {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.portfolio-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portfolio-text-two {
+    text-align: right;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

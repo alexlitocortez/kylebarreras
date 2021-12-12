@@ -1,0 +1,44 @@
+
+.AboutSection-container {
+    background-image: url('/Users/l/kylebarreras/src/images/bg.png');
+    position: relative;
+    top: 7rem;
+}
+
+.kyle-image-container {
+    width: 100%;
+}
+
+.kyleb-picture {
+    max-width: 100%;
+    max-height: 90%;
+}
+
+.AboutSection-name {
+    color: black;
+}
+
+.AboutSection-text {
+    margin-left: 1rem;
+    margin: 2rem auto;
+}
+
+.AboutSection-divider {
+    height: 4px;
+    width: 10vw;
+    background-color: #90afc5;
+    margin: 1rem auto;
+}
+
+.AboutSection-paragraph {
+    width: 90vw;
+    text-align: left;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* @media only screen and (min-width: 947px) {
+    .AboutSection-container {
+        top: 7rem;
+    }
+} */
