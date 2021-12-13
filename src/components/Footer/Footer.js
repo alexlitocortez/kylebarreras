@@ -4,11 +4,11 @@ import './Footer.css';
 function Footer() {
     return (
         <div>
-            <div className='footer-container'>
+            <footer className='footer-container'>
                 <div>
                     
                 </div>
-            </div>
+            </footer>
         </div>
     )
 }
