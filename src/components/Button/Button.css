@@ -1,0 +1,33 @@
+
+.sendMessage {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    outline: none;
+    display: block;
+    text-transform: uppercase;
+    margin: 2rem auto;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sendMessage svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10px;
+}
+
+
+.sendMessage:hover {
+    background: rgba(225, 51, 45, 0);
+    color: black;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    border: none;
+}
+

@@ -9,7 +9,7 @@ function PortfolioSection() {
         <div>
             <div className='portfolio-container'>
             <h1 className='portfolio-header'>Portfolio</h1>
-            <div className='portfolioSection-divider'></div>
+                <div className='portfolio-divider'></div>
                 <div className='portfolio-row'>
                     <div className='portfolio-text-one'>
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -17,7 +17,9 @@ function PortfolioSection() {
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </div>
-                    <img className='portfolio-image' src={portfolioImageOne} />
+                    <div className='image-container'>
+                        <img className='portfolio-image' src={portfolioImageOne} />
+                    </div>
                 </div>
                 <div className='portfolio-row'>
                     <div className='portfolio-text-two'>
@@ -26,7 +28,9 @@ function PortfolioSection() {
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </div>
-                    <img className='portfolio-image' src={portfolioImageTwo} />
+                    <div className='image-container'>
+                        <img className='portfolio-image' src={portfolioImageTwo} />
+                    </div>
                 </div>
                 <div className='portfolio-row'>
                     <div className='portfolio-text-three'>
@@ -35,7 +39,9 @@ function PortfolioSection() {
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </div>
-                    <img className='portfolio-image' src={portfolioImageThree} />
+                    <div className='image-container'>
+                        <img className='portfolio-image' src={portfolioImageThree} />
+                    </div>
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@ const HamburgerIcon = styled(FaBars)`
         background-size: contain;
         height: 2rem;
         width: 2rem;
-        color: white;
+        color: black;
         cursor: pointer;
         position: fixed;
         top: 0.6rem;
